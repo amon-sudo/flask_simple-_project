@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 
 app  = Flask(__name__)
 users = []
-?
+
 
 @app.route('/register', methods=['POST'])
 def regi():
