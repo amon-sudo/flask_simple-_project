@@ -68,6 +68,6 @@ def rem(id):
              return jsonify({"msg":"Removed succesfully!!!"})
         
     return jsonify({"err":"error"})
-    
+ # initializing the app 
 if __name__=="__main__":
     app.run(debug=True)
