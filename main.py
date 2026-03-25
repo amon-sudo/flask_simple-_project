@@ -29,7 +29,7 @@ def regi():
 @app.route("/users", methods=["GET"])
 def getem():
     return jsonify(users), 200
-
+# get
 @app.route("/login", methods=["POST"])
 def log():
     jj = request.get_json()
