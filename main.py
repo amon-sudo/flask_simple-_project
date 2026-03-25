@@ -5,7 +5,8 @@ users = []
 # not abd
 
 @app.route('/register', methods=['POST'])
-def regi():
+# initializing the data structure
+def regi():                                                      
     jj = request.get_json()
     first = jj.get("first")
     second = jj.get("second")
